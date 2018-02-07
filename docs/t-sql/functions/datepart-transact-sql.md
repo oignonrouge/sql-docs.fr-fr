@@ -62,18 +62,18 @@ Est la partie de *date* (une valeur de date ou heure) pour lequel un **entier** 
 |**année**|**aa**, **aaaa**|  
 |**trimestre**|**qq**, **q**|  
 |**mois**|**mm**, **m**|  
-|**DAYOFYEAR**|**dy**, **y**|  
+|**jour de l'année**|**dy**, **y**|  
 |**jour**|**DD**, **d**|  
 |**semaine**|**wk**, **ww**|  
-|**jour de la semaine**|**entrepôt de données**|  
+|**jour de la semaine**|**dw**|  
 |**heure**|**hh**|  
-|**minute**|**héritage multiple, n**|  
+|**minute**|**mi, n**|  
 |**seconde**|**ss**, **s**|  
 |**milliseconde**|**MS**|  
 |**microsecondes**|**MCS**|  
 |**nanosecondes**|**NS**|  
 |**Date TZoffset**|**TZ**|  
-|**ISO_WEEK**|**isowk**, **isoww**|  
+|**numéro ISO de semaine**|**isowk**, **isoww**|  
   
 *date*  
 Est une expression qui peut être résolue en un **temps**, **date**, **smalldatetime**, **datetime**, **datetime2**, ou **datetimeoffset** valeur. *date* peut être une expression, une expression de colonne, une variable définie par l’utilisateur ou une chaîne littérale.  
@@ -94,10 +94,10 @@ Le tableau suivant répertorie tous les *datepart* arguments avec les valeurs de
 |**année, jj, AA**|2007|  
 |**trimestre, qq, q**|4|  
 |**mois, mm, m**|10|  
-|**DAYOFYEAR, dy, y**|303|  
+|**jour de l'année, dy, y**|303|  
 |**Day, jj, d**|30|  
 |**semaine, wk, ww**|45|  
-|**jour ouvrable, entrepôt de données**|1|  
+|**jour ouvrable, dw**|1|  
 |**heure, hh**|12|  
 |**minute, n**|15|  
 |**seconde, ss, s**|32|  
